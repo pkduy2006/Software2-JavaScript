@@ -5,7 +5,7 @@ let number = prompt('Enter a number.');
 
 while(numbers.has(number) === false) {
   numbers.add(number);
-  number = prompt('Enter a number');
+  number = prompt('Enter a number.');
 }
 
 alert(`${number} has already been given.`);
